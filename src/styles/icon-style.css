@@ -1,0 +1,350 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?ulkn19');
+  src:  url('fonts/icomoon.eot?ulkn19#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?ulkn19') format('truetype'),
+    url('fonts/icomoon.woff?ulkn19') format('woff'),
+    url('fonts/icomoon.svg?ulkn19#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-ic-subscription-96:before {
+  content: "\e900";
+}
+.icon-ic-create-96:before {
+  content: "\e901";
+}
+.icon-ic-done-circle-56:before {
+  content: "\e902";
+  color: #15ad61;
+}
+.icon-ic-user-56:before {
+  content: "\e903";
+}
+.icon-ic-image-56:before {
+  content: "\e904";
+}
+.icon-ic-gear-24:before {
+  content: "\e905";
+}
+.icon-ic-test-net-24:before {
+  content: "\e906";
+}
+.icon-ic-moon-24:before {
+  content: "\e907";
+}
+.icon-ic-history-24:before {
+  content: "\e908";
+}
+.icon-ic-dashboard-small-24:before {
+  content: "\e909";
+}
+.icon-ic-messages-24:before {
+  content: "\e90a";
+}
+.icon-ic-doc-24:before {
+  content: "\e90b";
+}
+.icon-ic-notification-24:before {
+  content: "\e90c";
+}
+.icon-ic-exclamationmark-circle-fill-24 .path1:before {
+  content: "\e90d";
+  color: rgb(245, 153, 49);
+}
+.icon-ic-exclamationmark-circle-fill-24 .path2:before {
+  content: "\e90e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-ic-xmark-circle-fill-24 .path1:before {
+  content: "\e90f";
+  color: rgb(245, 60, 54);
+}
+.icon-ic-xmark-circle-fill-24 .path2:before {
+  content: "\e910";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-ic-done-circle-fill-24 .path1:before {
+  content: "\e911";
+  color: rgb(21, 173, 97);
+}
+.icon-ic-done-circle-fill-24 .path2:before {
+  content: "\e912";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-ic-hot-keys-24:before {
+  content: "\e913";
+}
+.icon-ic-sun-24:before {
+  content: "\e914";
+}
+.icon-ic-placeholder-24:before {
+  content: "\e915";
+  color: #83898f;
+}
+.icon-ic-done-24:before {
+  content: "\e916";
+}
+.icon-ic-done-circle-24:before {
+  content: "\e917";
+}
+.icon-ic-xmark-circle-24:before {
+  content: "\e918";
+}
+.icon-ic-settings-24:before {
+  content: "\e919";
+}
+.icon-ic-copy-24:before {
+  content: "\e91a";
+}
+.icon-ic-lifebuoy-24:before {
+  content: "\e91b";
+}
+.icon-ic-exit-24:before {
+  content: "\e91c";
+}
+.icon-ic-pencil-24:before {
+  content: "\e91d";
+}
+.icon-ic-search-24:before {
+  content: "\e91e";
+}
+.icon-ic-minus-circle-24:before {
+  content: "\e91f";
+}
+.icon-ic-loader-24:before {
+  content: "\e920";
+}
+.icon-ic-plus-circle-24:before {
+  content: "\e921";
+}
+.icon-ic-dashboard-24:before {
+  content: "\e922";
+}
+.icon-ic-trash-bin-24:before {
+  content: "\e923";
+}
+.icon-ic-xmark-small-24:before {
+  content: "\e924";
+}
+.icon-ic-xmark-24:before {
+  content: "\e925";
+}
+.icon-ic-profile-24:before {
+  content: "\e926";
+}
+.icon-ic-tokens-24:before {
+  content: "\e927";
+}
+.icon-ic-coins-24:before {
+  content: "\e928";
+}
+.icon-ic-statistics-24:before {
+  content: "\e929";
+}
+.icon-ic-promotion-24:before {
+  content: "\e92a";
+}
+.icon-ic-connect-24:before {
+  content: "\e92b";
+}
+.icon-ic-wallet-24:before {
+  content: "\e92c";
+}
+.icon-ic-incoming-24:before {
+  content: "\e92d";
+}
+.icon-ic-code-24:before {
+  content: "\e92e";
+}
+.icon-ic-link-small-20:before {
+  content: "\e92f";
+}
+.icon-ic-placeholder-20:before {
+  content: "\e930";
+  color: #83898f;
+}
+.icon-ic-chevron-left-20:before {
+  content: "\e931";
+}
+.icon-ic-chevron-right-20:before {
+  content: "\e932";
+}
+.icon-ic-xmark-20:before {
+  content: "\e933";
+}
+.icon-ic-copy-20:before {
+  content: "\e934";
+}
+.icon-ic-refresh-16:before {
+  content: "\e935";
+}
+.icon-ic-enter-16:before {
+  content: "\e936";
+}
+.icon-ic-empty-16:before {
+  content: "\e937";
+}
+.icon-ic-information-color-circle-16 .path1:before {
+  content: "\e938";
+  color: rgb(160, 166, 173);
+  opacity: 0.16;
+}
+.icon-ic-information-color-circle-16 .path2:before {
+  content: "\e939";
+  margin-left: -1em;
+  color: rgb(160, 166, 173);
+}
+.icon-ic-information-stroke-circle-16:before {
+  content: "\e93a";
+}
+.icon-ic-nft-16:before {
+  content: "\e93b";
+}
+.icon-ic-link-small-16:before {
+  content: "\e93c";
+}
+.icon-ic-xmark-circle-16:before {
+  content: "\e93d";
+}
+.icon-ic-time-16:before {
+  content: "\e93e";
+}
+.icon-ic-doc-16:before {
+  content: "\e93f";
+}
+.icon-ic-telegram-16:before {
+  content: "\e940";
+}
+.icon-ic-arrow-down-16:before {
+  content: "\e941";
+}
+.icon-ic-exclamationmark-triangle-16:before {
+  content: "\e942";
+}
+.icon-ic-gear-16:before {
+  content: "\e943";
+}
+.icon-ic-arrow-up-16:before {
+  content: "\e944";
+}
+.icon-ic-placeholder-16:before {
+  content: "\e945";
+  color: #83898f;
+}
+.icon-ic-code-16:before {
+  content: "\e946";
+}
+.icon-ic-tokens-16:before {
+  content: "\e947";
+}
+.icon-ic-xmark-16:before {
+  content: "\e948";
+}
+.icon-ic-arrow-right-16:before {
+  content: "\e949";
+}
+.icon-ic-flash-16:before {
+  content: "\e94a";
+}
+.icon-ic-information-circle-16:before {
+  content: "\e94b";
+}
+.icon-ic-exclamationmark-circle-16:before {
+  content: "\e94c";
+}
+.icon-ic-copy-outline-16:before {
+  content: "\e94d";
+}
+.icon-ic-verification-16:before {
+  content: "\e94e";
+}
+.icon-ic-sort-16:before {
+  content: "\e94f";
+}
+.icon-ic-globe-16:before {
+  content: "\e950";
+}
+.icon-ic-coins-16:before {
+  content: "\e951";
+}
+.icon-ic-auction-hammer-16:before {
+  content: "\e952";
+}
+.icon-ic-sale-badge-16:before {
+  content: "\e953";
+}
+.icon-ic-double-checkmark-16:before {
+  content: "\e954";
+}
+.icon-ic-xmark-circle-outline-16:before {
+  content: "\e955";
+}
+.icon-ic-block-16:before {
+  content: "\e956";
+}
+.icon-ic-entrance-16:before {
+  content: "\e957";
+}
+.icon-ic-exit-16:before {
+  content: "\e958";
+}
+.icon-ic-search-16:before {
+  content: "\e959";
+}
+.icon-ic-ton-16:before {
+  content: "\e95a";
+}
+.icon-ic-loader-16:before {
+  content: "\e95b";
+}
+.icon-ic-plus-16:before {
+  content: "\e95c";
+}
+.icon-ic-more-vertical-16:before {
+  content: "\e95d";
+}
+.icon-ic-more-horizontal-16:before {
+  content: "\e95e";
+}
+.icon-ic-trash-bin-16:before {
+  content: "\e95f";
+}
+.icon-ic-chevron-right-16:before {
+  content: "\e960";
+}
+.icon-ic-done-16:before {
+  content: "\e961";
+}
+.icon-ic-chevron-down-16:before {
+  content: "\e962";
+}
+.icon-ic-chevron-down-12:before {
+  content: "\e963";
+}
+.icon-ic-arrow-down-12:before {
+  content: "\e964";
+}
+.icon-ic-arrow-up-12:before {
+  content: "\e965";
+}

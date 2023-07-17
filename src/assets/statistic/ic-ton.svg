@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="96" fill="none">
+    <g clip-path="url(#diamond-light_svg__a)">
+        <path stroke="var(--textPrimary)" stroke-linecap="round" stroke-linejoin="round" stroke-width="7"
+              d="m27.894 38.14 18.649 33.22c.631 1.116 2.283 1.116 2.914 0l18.65-33.22c1.505-2.671-.438-6.022-3.497-6.022H31.39c-3.06 0-5.002 3.302-3.496 6.022v0ZM48.015 72.181V32.163"></path>
+        <path fill="var(--textPrimary)" fill-rule="evenodd"
+              d="M48 0C21.508 0 0 21.508 0 48s21.508 48 48 48 48-21.508 48-48S74.492 0 48 0Zm0 7.384c22.417 0 40.616 18.2 40.616 40.616 0 22.417-18.2 40.616-40.616 40.616S7.384 70.416 7.384 48 25.584 7.384 48 7.384Z"
+              clip-rule="evenodd"></path>
+    </g>
+    <defs>
+        <clipPath id="diamond-light_svg__a">
+            <path fill="#383839" d="M0 0h96v96H0z"></path>
+        </clipPath>
+    </defs>
+</svg>

@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  tonviewer:
+    container_name: tonviewer
+    image: swork91/tonviewer
+    ports:
+      - "127.0.0.1:9120:3000"
+    restart: unless-stopped
+  # TODO: provide local docker compose to verify build

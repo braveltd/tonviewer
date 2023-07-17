@@ -1,0 +1,15 @@
+Jenkinsfile
+
+# IDE settings
+/.vscode
+/.idea
+
+node_modules
+
+# Git
+.git*
+
+# local env files
+.env*
+
+README.md

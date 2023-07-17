@@ -1,0 +1,10 @@
+<svg width='14' height='14' view-box='0 0 14 14' fill='none' xmlns='http://www.w3.org/2000/svg'>
+  <circle opacity='0.3' cx='7' cy='7' r='6.5' stroke='#DFDFDF' />
+  <g opacity='0.3'>
+    <circle cx='7' cy='4' r='1' fill='#DFDFDF' />
+    <path
+      d='M6.36495 6.63428C6.39492 6.27574 6.69467 6 7.05446 6V6C7.42088 6 7.72377 6.28566 7.7452 6.65145L7.94224 10.0142C7.97358 10.549 7.54826 11 7.01247 11V11C6.46749 11 6.03894 10.5341 6.08434 9.99105L6.36495 6.63428Z'
+      fill='#DFDFDF'
+    />
+  </g>
+</svg>

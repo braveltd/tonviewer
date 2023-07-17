@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="96" fill="none">
+    <g stroke="var(--textPrimary)" stroke-width="7" clip-path="url(#validators-stats-light_svg__a)">
+        <rect width="89" height="73" x="3.5" y="3.5" rx="10.5"></rect>
+        <path stroke-linecap="round" stroke-linejoin="round"
+              d="m39.5 43 6.5 6.5 9.5-19M36 79.5v12M60 79.5v12M26 92.495h44"></path>
+    </g>
+    <defs>
+        <clipPath id="validators-stats-light_svg__a">
+            <path fill="#000" d="M0 0h96v96H0z"></path>
+        </clipPath>
+    </defs>
+</svg>

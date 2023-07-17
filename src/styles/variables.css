@@ -1,0 +1,238 @@
+body, body.light-mode {
+    /* background old */
+    --backgroundActive: #F1F3F5;
+    --backgroundMain: #F1F3F5;
+    --backgroundCard: #FFFFFF;
+    --backgroundControls: #F5F5F5;
+    --backgroundHover: #F1F3F5;
+
+    /* background */
+    --backgroundPage: #ECEEF0;
+    --backgroundContent: #FFFFFF;
+    --backgroundContentSecond: #F3F7FE;
+    --backgroundContentTint: #F1F3F5;
+    --backgroundHighlighted: rgba(194, 218, 255, 0.08);
+    --backgroundOverlay: rgba(0, 0, 0, 0.4);
+    --backgroundDarkOverlay: rgba(0, 0, 0, 0.56);
+
+    /* field */
+    --fieldBackground: #F1F3F5;
+    --fieldBackgroundSecondary: #F7FAFE;
+    --fieldBorder: rgba(131, 137, 143, 0.32);
+    --fieldSecondaryBorder: rgba(44, 126, 219, 0.1);
+    --fieldAccentBorder: rgba(44, 126, 219, 0.32);
+    --fieldActiveBorder: rgba(131, 137, 143, 0.56);
+    --fieldErrorBackground: rgba(245, 60, 54, 0.12);
+    --fieldErrorBorder: #F53C36;
+
+    /* text */
+    --textPrimary: #000000;
+    --textSecondary: #A0A6AD;
+    --textSteelGray: #93A5B9;
+    --textTertiary: #A0A6AD;
+    --textAccent: #2C7EDB;
+    --textContrast: #FFFFFF;
+
+    /* accent */
+    --accentBlue: #2C7EDB;
+    --accentGreen: #15AD61;
+    --accentRed: #F53C36;
+    --accentOrange: #F59931;
+
+    /* icon */
+    --iconPrimary: #000000;
+    --iconSecondary: #7E868F;
+    --iconSecondaryBlue: #93A7BD;
+    --iconTertiary: #A0A6AD;
+
+    /* separator */
+    --separatorCommon: rgba(131, 137, 143, 0.16);
+    --separatorInverted: rgba(255, 255, 255, 0.12);
+
+    /* button */
+
+
+    /* global input */
+    --globalInputHoverBackground: #FFFFFF;
+
+    /* title gradient */
+    --titleLinearColor: linear-gradient(91deg, rgba(106, 165, 253, 1) 20.02%, rgba(48, 66, 232, 1) 70.35%);
+}
+
+body.dark-mode {
+    /* background */
+    --backgroundActive: #2E3847;
+    --backgroundMain: #10161F;
+    --backgroundCard: #1D2633;
+    --backgroundControls: #F5F5F5;
+    --backgroundHover: #2E3847;
+
+    /* background */
+    --backgroundPage: #10161F;
+    --backgroundContent: #1D2633;
+    --backgroundContentSecond: #222F43;
+    --backgroundContentTint: #2B3E58;
+    --backgroundHighlighted: rgba(194, 218, 255, 0.08);
+    --backgroundOverlay: rgba(0, 0, 0, 0.48);
+    --backgroundDarkOverlay: rgba(0, 0, 0, 0.72);
+
+    /* field */
+    --fieldBackground: #212E3F;
+    --fieldBackgroundSecondary: #212E3F;
+    --fieldBorder: rgba(194, 218, 255, 0.16);
+    --fieldSecondaryBorder: rgba(44, 126, 219, 0.16);
+    --fieldAccentBorder: rgba(69, 174, 245, 0.32);
+    --fieldActiveBorder: rgba(194, 218, 255, 0.32);
+    --fieldErrorBackground: rgba(255, 71, 102, 0.08);
+    --fieldErrorBorder: #FF4766;
+
+    /* text */
+    --textPrimary: #FFFFFF;
+    --textSecondary: #8994A3;
+    --textSteelGray: #93A5B9;
+    --textTertiary: #556170;
+    --textAccent: #45AEF5;
+    --textContrast: #FFFFFF;
+
+    /* accent */
+    --accentBlue: #319CE3;
+    --accentGreen: #39CC83;
+    --accentRed: #FF4766;
+    --accentOrange: #F5A73B;
+
+    /* icon */
+    --iconPrimary: #FFFFFF;
+    --iconSecondary: #8994A3;
+    --iconSecondaryBlue: #A3B2C3;
+    --iconTertiary: #556170;
+
+    /* separator */
+    --separatorCommon: rgba(194, 218, 255, 0.08);
+    --separatorInverted: rgba(255, 255, 255, 0.08);
+
+    /* global input */
+    --globalInputHoverBackground: #222F43;
+
+    /* title gradient */
+    --titleLinearColor: linear-gradient(91.03deg, #89B8FF 4.02%, #213DD1 26.85%);
+}
+
+@media (prefers-color-scheme: dark) {
+    body, body.dark-mode {
+        /* background */
+        --backgroundActive: #2E3847;
+        --backgroundMain: #10161F;
+        --backgroundCard: #1D2633;
+        --backgroundControls: #F5F5F5;
+        --backgroundHover: #2E3847;
+
+        /* background */
+        --backgroundPage: #10161F;
+        --backgroundContent: #1D2633;
+        --backgroundContentSecond: #222F43;
+        --backgroundContentTint: #2B3E58;
+        --backgroundHighlighted: rgba(194, 218, 255, 0.08);
+        --backgroundOverlay: rgba(0, 0, 0, 0.48);
+        --backgroundDarkOverlay: rgba(0, 0, 0, 0.72);
+
+        /* field */
+        --fieldBackground: #212E3F;
+        --fieldBackgroundSecondary: #212E3F;
+        --fieldBorder: rgba(194, 218, 255, 0.16);
+        --fieldSecondaryBorder: rgba(44, 126, 219, 0.16);
+        --fieldAccentBorder: rgba(69, 174, 245, 0.32);
+        --fieldActiveBorder: rgba(194, 218, 255, 0.32);
+        --fieldErrorBackground: rgba(255, 71, 102, 0.08);
+        --fieldErrorBorder: #FF4766;
+
+        /* text */
+        --textPrimary: #FFFFFF;
+        --textSecondary: #8994A3;
+        --textSteelGray: #93A5B9;
+        --textTertiary: #556170;
+        --textAccent: #45AEF5;
+        --textContrast: #FFFFFF;
+
+        /* accent */
+        --accentBlue: #319CE3;
+        --accentGreen: #39CC83;
+        --accentRed: #FF4766;
+        --accentOrange: #F5A73B;
+
+        /* icon */
+        --iconPrimary: #FFFFFF;
+        --iconSecondary: #8994A3;
+        --iconSecondaryBlue: #A3B2C3;
+        --iconTertiary: #556170;
+
+        /* separator */
+        --separatorCommon: rgba(194, 218, 255, 0.08);
+        --separatorInverted: rgba(255, 255, 255, 0.08);
+
+        /* global input */
+        --globalInputHoverBackground: #222F43;
+
+        /* title gradient */
+        --titleLinearColor: linear-gradient(91.03deg, #89B8FF 4.02%, #213DD1 26.85%);
+    }
+    body.light-mode {
+        /* background old */
+        --backgroundActive: #F1F3F5;
+        --backgroundMain: #F1F3F5;
+        --backgroundCard: #FFFFFF;
+        --backgroundControls: #F5F5F5;
+        --backgroundHover: #F1F3F5;
+
+        /* background */
+        --backgroundPage: #ECEEF0;
+        --backgroundContent: #FFFFFF;
+        --backgroundContentSecond: #F3F7FE;
+        --backgroundContentTint: #F1F3F5;
+        --backgroundHighlighted: rgba(194, 218, 255, 0.08);
+        --backgroundOverlay: rgba(0, 0, 0, 0.4);
+        --backgroundDarkOverlay: rgba(0, 0, 0, 0.56);
+
+        /* field */
+        --fieldBackground: #F1F3F5;
+        --fieldBackgroundSecondary: #F7FAFE;
+        --fieldBorder: rgba(131, 137, 143, 0.32);
+        --fieldSecondaryBorder: rgba(44, 126, 219, 0.1);
+        --fieldAccentBorder: rgba(44, 126, 219, 0.32);
+        --fieldActiveBorder: rgba(131, 137, 143, 0.56);
+        --fieldErrorBackground: rgba(245, 60, 54, 0.12);
+        --fieldErrorBorder: #F53C36;
+
+        /* text */
+        --textPrimary: #000000;
+        --textSecondary: #A0A6AD;
+        --textSteelGray: #93A5B9;
+        --textTertiary: #A0A6AD;
+        --textAccent: #2C7EDB;
+        --textContrast: #FFFFFF;
+
+        /* accent */
+        --accentBlue: #2C7EDB;
+        --accentGreen: #15AD61;
+        --accentRed: #F53C36;
+        --accentOrange: #F59931;
+
+        /* icon */
+        --iconPrimary: #000000;
+        --iconSecondary: #7E868F;
+        --iconSecondaryBlue: #93A7BD;
+        --iconTertiary: #A0A6AD;
+
+        /* separator */
+        --separatorCommon: rgba(131, 137, 143, 0.16);
+        --separatorInverted: rgba(255, 255, 255, 0.12);
+
+        /* button */
+
+
+        /* global input */
+        --globalInputHoverBackground: #FFFFFF;
+
+        /* title gradient */
+        --titleLinearColor: linear-gradient(91deg, rgba(106, 165, 253, 1) 20.02%, rgba(48, 66, 232, 1) 70.35%);
+    }
+}

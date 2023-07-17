@@ -1,0 +1,203 @@
+@import url('https://fonts.cdnfonts.com/css/sf-mono');
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+@import "icon-style.css";
+@import "variables.css";
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  font-family: -apple-system, 'BlinkMacSystemFont', 'Roboto Mono', 'Helvetica Neue', 'Arial', 'Tahoma', 'Verdana', sans-serif;
+}
+
+html,
+body,
+#__next {
+  background-color: var(--backgroundCard);
+  display: flex;
+  width: 100%;
+  overflow-x: hidden;
+  /*height: 100%;*/
+}
+
+#__next {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.l1,
+.l2,
+.l3 {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  cursor: default;
+  font-family: -apple-system, 'BlinkMacSystemFont', 'Roboto Mono', 'Helvetica Neue', 'Arial', 'Tahoma', 'Verdana', sans-serif !important;
+}
+
+.l1-mono,
+.l2-mono,
+.l1-mono,
+.b1-mono,
+.b2-mono,
+.b3-mono {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-family: 'ui-monospace', 'SF Mono', 'monospace', 'Roboto Mono', 'Menlo', 'Consolas', 'Courier' !important;
+}
+
+
+h1 {
+  font-weight: 700;
+  font-size: 48px;
+}
+h2 {
+  font-weight: 700;
+  font-size: 32px;
+}
+h3 {
+  font-weight: 700;
+  font-size: 24px;
+}
+h4 {
+  font-weight: 700;
+  font-size: 20px;
+}
+h5 {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.l1 {
+  font-weight: 500;
+  font-size: 16px;
+}
+.l2 {
+  font-weight: 500;
+  font-size: 14px;
+}
+.l3 {
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.l1-mono {
+  font-weight: 600;
+  font-size: 16px;
+}
+.l2-mono {
+  font-weight: 600;
+  font-size: 14px;
+}
+.l3-mono {
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.b1 {
+  font-weight: 400;
+  font-size: 16px;
+}
+.b2 {
+  font-weight: 400;
+  font-size: 14px;
+}
+.b3 {
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.b1-mono {
+  font-weight: 500;
+  font-size: 16px;
+}
+.b2-mono {
+  font-weight: 500;
+  font-size: 14px;
+}
+.b3-mono {
+  font-weight: 500;
+  font-size: 12px;
+}
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+  letter-spacing: 0 !important;
+}
+
+.tippy-box {
+  border-radius: 12px !important;
+}
+
+.tippy-box.tooltip {
+  border-radius: 8px !important;
+}
+
+input {
+  outline: none;
+  border-radius: 8px;
+  border: none;
+}
+
+/*.dark-mode .tippy-box:not(.popover) {*/
+/*  background-color: #fff !important;*/
+/*  color: #212121;*/
+/*}*/
+
+/*.dark-mode .tippy-box:not(.popover) .tippy-arrow {*/
+/*  color: #fff !important;*/
+/*}*/
+
+.light-mode .tippy-box:not(.popover) {
+  background-color: #ffffff !important;
+  color: black;
+}
+
+.light-mode .tippy-box:not(.popover) .tippy-arrow {
+  color: #ffffff !important;
+}
+
+.tippy-content {
+  padding: 24px !important;
+}
+
+.tooltip .tippy-content {
+  padding: 24px !important;
+  box-sizing: border-box;
+  width: 304px;
+  white-space: pre;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.04)) drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.12));
+}
+
+/*.dark-mode .react-switch-handle {*/
+/*  background-color: #191B1F !important;*/
+/*}*/
+
+
+/*.dark-mode .tippy-box {*/
+/*  background-color: #303D4A;*/
+/*}*/
+
+@media screen and (max-width: 578px) {
+  .tippy-content {
+    max-width: 300px;
+  }
+}

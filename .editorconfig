@@ -1,0 +1,5 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+[*Jenkinsfile]
+indent_style = space
+indent_size = 4
